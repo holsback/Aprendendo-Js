@@ -31,3 +31,12 @@ switch (diaDaSemana) {
     default:
         console.log("Esse dia não é válido")
 }
+
+var name = "Bruno"
+var idade = 14
+if(idade <= 18) {
+    console.log(name + " Menor de idade");
+}else{
+    console.log(name + " Maior de idade")
+}
+
