@@ -5,12 +5,29 @@ for(i = 1; i <= 10; i ++){
     console.log(i);
 }
 
-sexo = "feminino";
- 
-switch (sexo) {
-    case "feminino":
-        console.log("Bem-vinda!");
+var diaDaSemana = 4;
+switch (diaDaSemana) {
+    case 1:
+        console.log("Domingo");
         break;
-    case false:
-        console.log("Bem-vindo!");
-} 
+    case 2:
+        console.log("Segunda-feira");
+        break;
+    case 3:
+        console.log("Terça-feira");
+        break;
+    case 4:
+        console.log("Quarta-feira");
+        break;
+    case 5:
+        console.log("Quinta-feira");
+        break;
+    case 6:
+        console.log("Terça-feira");
+        break;
+    case 7:
+        console.log("Sábado-feira");
+        break;
+    default:
+        console.log("Esse dia não é válido")
+}
