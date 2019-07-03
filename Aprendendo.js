@@ -40,3 +40,14 @@ if(idade <= 18) {
     console.log(name + " Maior de idade")
 }
 
+num = 0;
+while (num <= 10) {
+    console.log(num);
+    num++;
+}
+
+var numero = 0;
+do {
+    numero ++
+    console.log(numero)
+} while (numero < 10) 
